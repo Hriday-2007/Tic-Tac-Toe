@@ -32,7 +32,8 @@ boxes.forEach((box) => {
 })
 
 const disableBoxes = () => {
-    boxes.forEach(box.style.pointerEvents = "none");
+    boxes.forEach((box) => box.style.pointerEvents = "none");
+    // box.addEventListener("click", () => console.log("clicked"));
 }
 
 const showWinner = (winner) => {
