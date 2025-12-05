@@ -12,6 +12,7 @@ h2{
     color: yellow;
     text-align: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 3rem;
 }
 
 .container{
@@ -54,4 +55,19 @@ h2{
     border: none;
     border-radius: 5px;
     cursor: pointer;
+}
+
+#reset:hover{
+    background-color: #6A2466;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    color: yellow;
+}
+
+#msg{
+    color: rgb(229, 229, 70);
+    /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+}
+
+.hide{
+    display: none;
 }
